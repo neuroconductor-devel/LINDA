@@ -2,39 +2,23 @@ Type: Package
 Package: LINDA
 Title: Lesion Identification with Neighborhood Data Analysis
 Version: 0.5.1
-Authors@R: 
-    c(
-    person(given = "Dorian",
-           family = "Pustina",
-           role = c("aut", "cre"),
-           email = "dorian.pustina@gmail.com"),    
-    person(given = "John",
-           family = "Muschelli",
-           role = c("aut"),
-           email = "muschellij2@gmail.com",
-           comment = c(ORCID = "0000-0001-6469-1750"))
-    )
-Description: A neuroimaging toolkit for automatic segmentation
-    of chronic stroke lesions.
+Authors@R: c( person(given = "Dorian", family = "Pustina", role =
+        c("aut", "cre"), email = "dorian.pustina@gmail.com"),
+        person(given = "John", family = "Muschelli", role = c("aut"),
+        email = "muschellij2@gmail.com", comment = c(ORCID =
+        "0000-0001-6469-1750")) )
+Description: A neuroimaging toolkit for automatic segmentation of
+        chronic stroke lesions.
 License: Apache License | file LICENSE
 Depends: R (>= 3.0)
-Imports:
-    ANTsR,
-    ANTsRCore,
-    randomForest,
-    magrittr,
-    stats,
-    methods
-Suggests: 
-    covr,
-    knitr,
-    rmarkdown,
-    testthat,
-    devtools
-Remotes: 
-    ANTsX/ANTsRCore,
-    ANTsX/ANTsR
+Imports: ANTsR, ANTsRCore, randomForest, magrittr, stats, methods
+Suggests: covr, knitr, rmarkdown, testthat, devtools
 Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1.9000
+Repository: Neuroconductor-Devel
+Remotes:  
+    neuroconductor-devel/ANTsRCore@961f3b3a8b58f1d317f6f622951beeeb707749ed,
+    neuroconductor-devel/ANTsR@85802eaea97beee48ef757be5ce64028f5bbe965
+biocViews: 
